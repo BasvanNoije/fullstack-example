@@ -27,7 +27,7 @@ services:
             - meilisearch
             - mailpit
             - selenium
-    mysql:
+    mysql: 
         image: 'mysql/mysql-server:8.0'
         ports:
             - '${FORWARD_DB_PORT:-3306}:3306'
